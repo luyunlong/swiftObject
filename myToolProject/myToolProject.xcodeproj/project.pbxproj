@@ -14,6 +14,7 @@
 		C8BF3B581BD4EBB400670C70 /* myToolProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF3B571BD4EBB400670C70 /* myToolProjectTests.swift */; };
 		C8BF3B631BD4EBB400670C70 /* myToolProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF3B621BD4EBB400670C70 /* myToolProjectUITests.swift */; };
 		C8BF3B771BD4ECEA00670C70 /* LUMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF3B761BD4ECEA00670C70 /* LUMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C8BF3B791BD4F1E900670C70 /* LUHttpRequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BF3B781BD4F1E900670C70 /* LUHttpRequestTool.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C8BF3B621BD4EBB400670C70 /* myToolProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myToolProjectUITests.swift; sourceTree = "<group>"; };
 		C8BF3B641BD4EBB400670C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8BF3B761BD4ECEA00670C70 /* LUMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUMainViewController.swift; sourceTree = "<group>"; };
+		C8BF3B781BD4F1E900670C70 /* LUHttpRequestTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LUHttpRequestTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		C8BF3B731BD4EC4A00670C70 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C8BF3B781BD4F1E900670C70 /* LUHttpRequestTool.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8BF3B771BD4ECEA00670C70 /* LUMainViewController.swift in Sources */,
+				C8BF3B791BD4F1E900670C70 /* LUHttpRequestTool.swift in Sources */,
 				C8BF3B431BD4EBB400670C70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myToolProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.myToolProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myToolProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.myToolProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
